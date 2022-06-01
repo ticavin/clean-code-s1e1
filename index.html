@@ -9,8 +9,8 @@
     />
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8" />
   </head>
-  <body>
-    <main>
+  <body class="body">
+    <main class="main">
       <header class="header">
         <img
           class="img-header"
@@ -35,9 +35,9 @@
       </section>
       <section class="incomplete">
         <h2 class="incomplete-title title">Todo</h2>
-        <ul class="incomplete-ul">
-          <li class="incomplete-li task">
-            <input class="checkbox" type="checkbox" />
+        <ul class="incomplete-ul ul">
+          <li class=" li incomplete-li task">
+            <input class="checkbox input" type="checkbox" />
             <label class="task-label">Pay Bills</label>
             <input class="task-input input" type="text" />
             <button class="task-btn task-btn--edit btn">Edit</button>
@@ -49,8 +49,8 @@
               />
             </button>
           </li>
-          <li class="incomplete-li task edit-mode">
-            <input class="checkbox" type="checkbox" />
+          <li class="li incomplete-li  task edit-mode">
+            <input class="checkbox input" type="checkbox" />
             <label class="task-label">Go Shopping</label>
             <input class="task-input input" type="text" value="Go Shopping" />
             <button class="task-btn task-btn--edit btn">Save</button>
@@ -66,11 +66,11 @@
       </section>
       <section class="completed">
         <h2 class="completed-title title">Completed</h2>
-        <ul class="completed-ul">
-          <li class="completed-li task">
-            <input class="checkbox" type="checkbox" checked />
+        <ul class="completed-ul ul">
+          <li class="li completed-li task">
+            <input class="checkbox input" type="checkbox" checked />
             <label class="task-label">See the Doctor</label>
-            <input class="task-input input" type="text" />
+            <input class=" task-input input" type="text" />
             <button class="task-btn task-btn--edit btn">Edit</button>
             <button class="task-btn task-btn--delete btn">
               <img
