@@ -36,16 +36,16 @@ header { text-align: center;
     display: flex;
 }
 .ul {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 .li {
-    list-style:none;
+    list-style: none;
 }
 .input,
 .btn
 {
-    outline:none;
+    outline: none;
 }
 .btn {
     background: none;
@@ -138,11 +138,11 @@ header { text-align: center;
     display: none;
   }
   
-  .task--edit-mode .task-input {
+  .edit-mode .task-input {
     display: inline-block;
     width: 224px;
   }
   
-  .task--edit-mode .task-label {
+  .edit-mode .task-label {
     display: none;
   }
