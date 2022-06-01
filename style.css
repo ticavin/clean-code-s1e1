@@ -33,7 +33,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.addRow {
+.add-row {
   display: flex;
 }
 .ul {
