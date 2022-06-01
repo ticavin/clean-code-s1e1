@@ -48,22 +48,20 @@
             </ul>
         </section>
         <section class="completed">
-            <h3>Completed</h3>
-            <ul id="completed-tasks">
-                <li><input type="checkbox" checked>
-                    <label class="task">See the Doctor</label>
-                    <input type="text" class="task">
-                    <button class="edit">Edit</button>
-                    <button class="delete">
-                        <img src="./remove.svg">
-                    </button>
-            </li>
+            <h2 class="completed-title title">Completed</h2>
+            <ul class="completed-ul">
+              <li class="completed-li task">
+                <input class="checkbox" type="checkbox" checked>
+                <label class="task-label">See the Doctor</label>
+                <input class="task-input input" type="text">
+                <button class="task-btn task-btn--edit btn">Edit</button>
+                <button class="task-btn task-btn--delete btn">
+                  <img class="task-btn-icon" src="./remove.svg" alt="delete button">
+                </button>
+              </li>
             </ul>
         </section>
     </main>
-
-
-
 <script type="text/javascript" SRC="app.js"></script>
 </body>
 </html>
