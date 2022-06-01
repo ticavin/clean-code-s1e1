@@ -1,18 +1,22 @@
 /* Basic Style */
+
 .body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .img-header {
   width: 100%;
 }
+
 .link-header {
   font-family: fantasy, cursive;
 }
@@ -28,6 +32,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
+
 .add-element {
   margin: 1em 0;
 }
@@ -39,9 +44,11 @@
   flex-grow: 1;
   outline: none;
 }
+
 .add-row {
   display: flex;
 }
+
 .ul {
   margin: 0;
   padding: 0px;
